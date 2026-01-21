@@ -23,5 +23,13 @@ public class Main {
         student2.id = 2;
 
         student2.printDetails();
+
+        BankAccount account1 = new BankAccount();
+        account1.balance = 1000.00;
+        account1.ownerName = "John";
+
+        account1.deposit(500.00);
+        account1.withdraw(50.00);
+        account1.withdraw(50000.00);
     }
 }
